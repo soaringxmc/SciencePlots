@@ -28,6 +28,7 @@ setup(
 
     install_requires=['matplotlib'],
     packages=["scienceplots"],
+    include_package_data=True,
     package_data={
       'scienceplots': ['styles/**/*.mplstyle'],
     },
