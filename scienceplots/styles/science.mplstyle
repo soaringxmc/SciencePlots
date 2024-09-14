@@ -7,8 +7,7 @@
 axes.prop_cycle : cycler('color', ['1f77b4', 'ff7f0e', '2ca02c', 'd62728', '9467bd', '8c564b', 'e377c2'])
 
 # Set default figure size
-figure.figsize : 3.3, 2.5
-figure.dpi : 300
+figure.figsize : 3.5, 2.625
 
 # Set x axis
 xtick.direction : in
@@ -50,9 +49,9 @@ text.usetex : True
 text.latex.preamble : \usepackage{amsmath} \usepackage{amssymb}
 
 # Fontsizes
-xtick.labelsize : 10
-ytick.labelsize : 10
-legend.fontsize : 11
-legend.title_fontsize : 11
-axes.titlesize : 11
-axes.labelsize : 11
+xtick.labelsize : 9
+ytick.labelsize : 9
+legend.fontsize : 9
+legend.title_fontsize : 10
+axes.titlesize : 10 # figure title
+axes.labelsize : 10 # axis labels
